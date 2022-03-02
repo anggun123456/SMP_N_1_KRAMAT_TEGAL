@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN1KRAMATTEGAL">
         <activity
+            android:name=".EkskulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerpusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GaleriActivity"
+            android:exported="false" />
+        <activity
             android:name=".fasilitasActivity"
             android:exported="false" />
         <activity

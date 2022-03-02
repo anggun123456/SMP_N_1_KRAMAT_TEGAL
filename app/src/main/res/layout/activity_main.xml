@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -14,21 +14,40 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <!--            Header-->
-            <!--            Header-->
-
-            <!--            pembuka variabel menu 1 dan 2-->
+            <!--Header-->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
+                <ViewFlipper
+                    android:id="@+id/viewFlipper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="210dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/headersmp" />
-            </RelativeLayout>
+                    android:src="@drawable/headersmp"/>
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="210dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/headersakra"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="210dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/header2"/>
+
+
+
+                </ViewFlipper>
+            </RelativeLayout>
+            <!--Header-->
+            <!--            pembuka variabel menu 1 dan 2-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -52,30 +71,31 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:onClick="profil"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/profil"
-                                />
+                                android:onClick="profil"
+                                android:src="@drawable/profil"/>
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:gravity="center"
                                 android:text="PROFIL"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
-                <!--                penutup menu 1-->
+                <!--                    penutup menu 1-->
 
-                <!--                menu 2-->
+                <!--                pembuka menu 2-->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="170dp"
@@ -96,27 +116,27 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:onClick="guru"
                                 android:layout_gravity="center"
+                                android:onClick="Guru"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/guru"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="GURU DAN STAF"
+                                android:text="GURU"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
-                <!--                penutup menu 2-->
+
 
             </LinearLayout>
-            <!--            penutup variabel menu 1 dan 2-->
+            <!--            penutup variabel 1 dan 2-->
 
             <!--            pembuka variabel menu 3 dan 4-->
             <LinearLayout
@@ -142,29 +162,30 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <ImageView
-                                android:layout_width="80dp"
+                                android:layout_width="75dp"
                                 android:layout_height="80dp"
-                                android:onClick="eskul"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/ekstrakulikuler"/>
+                                android:onClick="Ekskul"
+                                android:src="@drawable/ekstrakulikuler" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:gravity="center"
                                 android:text="EKSKUL"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
-                <!--                penutup menu 3-->
+                <!--                    penutup menu 3-->
 
-                <!--                menu 4-->
+                <!--                pembuka menu 4-->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="170dp"
@@ -182,30 +203,32 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:onClick="fasilitas"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/fasilitas"/>
+                                android:onClick="Fasilitas"
+                                android:src="@drawable/fasilitas" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="FASILITAS"
+                                android:text="FASILTAS"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
-                <!--                penutup menu 4-->
+
 
             </LinearLayout>
-            <!--            penutup variabel menu 3 dan 4-->
+            <!--            penutup variabel 3 dan 4-->
 
             <!--            pembuka variabel menu 5 dan 6-->
             <LinearLayout
@@ -234,26 +257,27 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:onClick="perpus"
                                 android:layout_gravity="center"
+                                android:onClick="Perpus"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/perpus"/>
+                                android:src="@drawable/perpus"
+                                tools:ignore="OnClick" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="E-PERPUS"
+                                android:text="PERPUS"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
-                <!--                penutup menu 5-->
+                <!--                    penutup menu 5-->
 
-                <!--                menu6-->
+                <!--                pembuka menu 6-->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="170dp"
@@ -271,34 +295,31 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
-
                             <ImageView
-                                android:layout_width="72dp"
+                                android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:onClick="galeri"
                                 android:layout_gravity="center"
+                                android:onClick="Galeri"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/galeri" />
+                                android:src="@drawable/galeri"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:gravity="center"
                                 android:text="GALERI"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
-                <!--                penutup menu 6-->
+
 
             </LinearLayout>
-            <!--            penutup variabel menu 5 dan 6-->
+            <!--            penutup variabel 5 dan 6-->
+
         </LinearLayout>
-
     </ScrollView>
-
-
-</RelativeLayout>
+</LinearLayout>

@@ -170,6 +170,7 @@
                                 android:layout_margin="10dp"
                                 android:onClick="Ekskul"
                                 android:src="@drawable/ekstrakulikuler" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -254,14 +255,15 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:onClick="Perpus"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/perpus"
-                                tools:ignore="OnClick" />
+                                android:onClick="Perpus"
+                                android:src="@drawable/perpus" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -269,7 +271,7 @@
                                 android:text="PERPUS"
                                 android:textColor="#000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>

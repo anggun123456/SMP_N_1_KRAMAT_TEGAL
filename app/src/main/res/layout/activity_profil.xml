@@ -11,6 +11,7 @@
         android:layout_height="188dp"
         android:fitsSystemWindows="true"
         android:theme="@style/Theme.Design">
+
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -22,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/headersakra"
+                android:src="@drawable/header2"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -40,7 +41,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-        <!--        Awal Isi-->
+        <!--        awal isi-->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -81,23 +82,23 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
-                        android:textColor="#000"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:text="PROFIL SMP N 1 KRAMAT"/>
+                        android:layout_marginTop="15dp"
+                        android:text="PROFIL SMP N 1 KRAMAT"
+                        android:textColor="#0000FF"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
-                        android:layout_marginTop="42dp"
-                        android:textSize="10sp"
-                        android:text="JL. JALI Dampyak, Rt.1 Rw.4, Dampyak,Kramat, Surabayan, Dampyak, Kec. Kramat, Kabupaten Tegal, Jawa Tengah 52181 "/>
+                        android:layout_marginTop="60dp"
+                        android:text="Jl. JALI, DAMPYAK Rt.1 Rw.4 Dampyak, Kramat, Surabayan, Dampyak Kec.Kramat Kabupaten Tegal, Jawa Tengah 52181"
+                        android:textSize="10sp" />
 
                     <LinearLayout
-                        android:layout_marginTop="75dp"
                         android:layout_width="wrap_content"
+                        android:layout_marginTop="95dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
@@ -106,100 +107,110 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Nama Sekolah : SMP N 1 KRAMAT"/>
+                            android:text="Nama Sekolah : SMP N 1 KRAMAT"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="NPSN : 20325347"/>
+                            android:text="NPSN: 20325347"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Alamat : Jl. Jali Dampyak"/>
+                            android:text="Alamat : JL. JALI DAMPYAK"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Kode Pos : 52181"/>
+                            android:text="Kode Pos : 52181"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Desa/Kelurahan : Dampyak"/>
+                            android:text="Desa / Kelurahan : Dampyak"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Kecamatan/Kota(LN) : Kramat"/>
+                            android:text="Kecamatan / Kota (LN) : Kec. Kramat"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Kab./kota/Negara(LN) : Kab.Tegal"/>
+                            android:text="Kab. / Kota / Negara (LN) : Kab. Tegal"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Provinsi/Luar Negeri : Jawa Tengah"/>
+                            android:text="Provinsi / Luar Negeri : Jawa Tengah"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Status Sekolah : Negeri"/>
+                            android:text="Status Sekolah : Negeri"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Waktu Belajar : Sekolah Pagi"/>
+                            android:text="Waktu belajar : Sekolah Pagi / 6 hari"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Jenjang Pendidikan : SMP"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -207,20 +218,19 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
+                            android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Jenjang Pendidikan : SMP"/>
-
-
-
-
+                            android:text="Kurikulum : SMP 2013"
+                            android:textColor="#000"/>
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
-
             </GridLayout>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </androidx.core.widget.NestedScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

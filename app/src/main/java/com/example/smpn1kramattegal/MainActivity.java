@@ -29,21 +29,34 @@ public class MainActivity extends AppCompatActivity {
         viewFlipper.startFlipping();
     }
 
-    public void guru(View view) {
-    }
-
-    public void eskul(View view) {
-    }
 
     public void profil(View view) {
+        Intent intent = new Intent(MainActivity.this, profilActivity.class);
+        startActivity(intent);
     }
 
-    public void fasilitas(View view) {
+    public void Guru(View view) {
+        Intent intent = new Intent(MainActivity.this, GuruActivity.class);
+        startActivity(intent);
     }
 
-    public void perpus(View view) {
+    public void Ekskul(View view) {
+        Intent intent = new Intent(MainActivity.this, EkskulActivity.class);
+        startActivity(intent);
     }
 
-    public void galeri(View view) {
+    public void Fasilitas(View view) {
+        Intent intent = new Intent(MainActivity.this, fasilitasActivity.class);
+        startActivity(intent);
+    }
+
+    public void Perpus(View view) {
+        Intent intent = new Intent(MainActivity.this, PerpusActivity.class);
+        startActivity(intent);
+    }
+
+    public void Galeri(View view) {
+        Intent intent = new Intent(MainActivity.this, GaleriActivity.class);
+        startActivity(intent);
     }
 }

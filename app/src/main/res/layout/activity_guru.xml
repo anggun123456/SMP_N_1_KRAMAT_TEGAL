@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".guruActivity"
+    tools:context=".GuruActivity"
     android:gravity="center">
 
     <ScrollView
@@ -41,7 +41,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/semiyanto" />
+                    android:src="@drawable/abukosim" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                         android:layout_marginLeft="40dp"
                         android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Semiyanto"
+                        android:text="Abu kosim"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -67,7 +67,7 @@
                         android:layout_marginLeft="40dp"
                         android:gravity="center"
                         android:text="NIP: 196011231983031006"
-                        android:textColor="@color/purple_500"
+                        android:textColor="#0E0D0D"
                         android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -91,7 +91,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/abukosim" />
+                    android:src="@drawable/semiyanto" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -106,7 +106,7 @@
                         android:layout_marginLeft="40dp"
                         android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Abu Kosim"
+                        android:text="Semiyanto."
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -286,7 +286,7 @@
                         android:layout_marginLeft="40dp"
                         android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Dyah RIanawati"
+                        android:text="Dyah Rianawati"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -296,7 +296,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="NIP--"
+                        android:text="NIP --"
                         android:textColor="@color/purple_500"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -346,7 +346,7 @@
                         android:layout_marginLeft="40dp"
                         android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Edi purnama"
+                        android:text="Edi Purnama"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -393,44 +393,6 @@
                     android:layout_marginTop="10dp"
                     android:src="@drawable/endangnoorsuprapti" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="100dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
-                        android:gravity="center"
-                        android:text="Endang Noor Suprapti"
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text="NIP: 196405251985012006"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
@@ -466,7 +428,7 @@
                         android:layout_marginLeft="40dp"
                         android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Endang Sulistiyanti"
+                        android:text="Endang  Sulistiyanti"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -476,7 +438,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="NIP: 19790307201406200"
+                        android:text="-Kepala Tata Usaha"
                         android:textColor="@color/purple_500"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -494,6 +456,15 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/harisuciyanto" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -518,7 +489,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text=""
+                        android:text="NIP: 197903072014062002"
                         android:textColor="@color/purple_500"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -528,7 +499,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="-Guru Bahasa Indonesia"
+                        android:text=""
                         android:textColor="@color/purple_500"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -578,7 +549,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="-Koordinator Kelas Intensif"
+                        android:text="NIP: 196512271989031011"
                         android:textColor="@color/purple_500"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -588,23 +559,77 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="-Guru Seni Budaya / Prakarya"
+                        android:text=""
                         android:textColor="@color/purple_500"
                         android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_row="0"
                 android:layout_column="9"
                 android:layout_gravity="center_vertical"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/harisuciyanto" />
+                android:layout_marginLeft="100dp"
+                android:orientation="vertical"
+                tools:ignore="GridLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="Endang Noor Suprapti"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"
+                    android:text="NIP: 196405251985012006"
+                    android:textColor="@color/purple_500"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/purple_500"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/endangnoorsuprapti" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
         </GridLayout>
     </ScrollView>
 </RelativeLayout>

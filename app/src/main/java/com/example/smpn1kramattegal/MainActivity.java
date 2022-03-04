@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Guru(View view) {
-        Intent intent = new Intent(MainActivity.this, GuruActivity.class);
+        Intent intent = new Intent(MainActivity.this, guruActivity.class);
         startActivity(intent);
     }
 

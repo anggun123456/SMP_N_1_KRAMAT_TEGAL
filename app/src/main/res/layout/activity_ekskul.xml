@@ -183,7 +183,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="FUTSAL">
+                                        android:text=" EKSKUL FUTSAL">
 
                                     </TextView>
                                 </LinearLayout>
@@ -226,7 +226,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI PMR">
+                                        android:text="EKSKUL PMR">
 
                                     </TextView>
                                 </LinearLayout>

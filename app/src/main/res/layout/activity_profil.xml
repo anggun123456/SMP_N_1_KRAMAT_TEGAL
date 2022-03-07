@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/header2"
+                android:src="@drawable/headersakra"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -85,14 +85,14 @@
                         android:layout_marginTop="15dp"
                         android:text="PROFIL SMP N 1 KRAMAT"
                         android:textColor="#0000FF"
-                        android:textSize="20sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
-                        android:layout_marginTop="60dp"
+                        android:layout_marginTop="40dp"
                         android:text="Jl. JALI, DAMPYAK Rt.1 Rw.4 Dampyak, Kramat, Surabayan, Dampyak Kec.Kramat Kabupaten Tegal, Jawa Tengah 52181"
                         android:textSize="10sp" />
 
@@ -107,7 +107,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Nama Sekolah : SMP N 1 KRAMAT"
                             android:textColor="#000"/>
@@ -117,7 +117,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="NPSN: 20325347"
                             android:textColor="#000"/>
@@ -127,7 +127,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Alamat : JL. JALI DAMPYAK"
                             android:textColor="#000"/>
@@ -137,7 +137,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Kode Pos : 52181"
                             android:textColor="#000"/>
@@ -147,7 +147,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Desa / Kelurahan : Dampyak"
                             android:textColor="#000"/>
@@ -157,7 +157,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Kecamatan / Kota (LN) : Kec. Kramat"
                             android:textColor="#000"/>
@@ -167,7 +167,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Kab. / Kota / Negara (LN) : Kab. Tegal"
                             android:textColor="#000"/>
@@ -177,7 +177,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Provinsi / Luar Negeri : Jawa Tengah"
                             android:textColor="#000"/>
@@ -187,7 +187,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Status Sekolah : Negeri"
                             android:textColor="#000"/>
@@ -197,7 +197,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Waktu belajar : Sekolah Pagi / 6 hari"
                             android:textColor="#000"/>
@@ -207,7 +207,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Jenjang Pendidikan : SMP"
                             android:textColor="#000"/>
@@ -218,7 +218,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
-                            android:textSize="15sp"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:text="Kurikulum : SMP 2013"
                             android:textColor="#000"/>

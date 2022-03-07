@@ -2,6 +2,7 @@ package com.example.smpn1kramattegal;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.system.Os;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,14 +35,28 @@ public class EkskulActivity extends AppCompatActivity {
     }
 
     public void osis(View view) {
+        Intent intent = new Intent(EkskulActivity.this, OsisActivity.class);
+        startActivity(intent);
     }
 
     public void pramuka(View view) {
+        Intent intent = new Intent(EkskulActivity.this, PramukaActivity.class);
+        startActivity(intent);
     }
 
     public void futsal(View view) {
+        Intent intent = new Intent(EkskulActivity.this, FutsalActivity.class);
+        startActivity(intent);
     }
 
     public void pmr(View view) {
+        Intent intent = new Intent(EkskulActivity.this, PmrActivity.class);
+        startActivity(intent);
+    }
+
+    public void karate(View view) {
+    }
+
+    public void basket(View view) {
     }
 }

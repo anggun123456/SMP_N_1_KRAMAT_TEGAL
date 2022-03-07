@@ -24,24 +24,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="210dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/headersmp"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="210dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gurusmp" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/headersakra"/>
+                        android:src="@drawable/headersakra" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/header2"/>
-
+                        android:src="@drawable/header" />
 
 
                 </ViewFlipper>

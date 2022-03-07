@@ -21,4 +21,7 @@ public class GaleriActivity extends AppCompatActivity {
 
     public void albumpramuka(View view) {
     }
+
+    public void sosialisasi(View view) {
+    }
 }

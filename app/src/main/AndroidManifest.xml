@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN1KRAMATTEGAL">
         <activity
+            android:name=".buku9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".buku8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".buku7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sosialisasiActivity"
+            android:exported="false" />
+        <activity
             android:name=".PmrActivity"
             android:exported="false" />
         <activity

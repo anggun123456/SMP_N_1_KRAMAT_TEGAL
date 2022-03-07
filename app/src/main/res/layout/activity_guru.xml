@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".guruActivity"
-    android:gravity="center">
+    tools:context=".guruActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -41,37 +40,44 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/semiyanto" />
+                    android:src="@drawable/kepsek"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Semiyanto"
+                        android:layout_marginLeft="50dp"
+                        android:text="HENING HARYANTI, S.Pd,M.Pd"
                         android:textColor="#000"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
-
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="NIP: 196011231983031006"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:layout_marginLeft="50dp"
+                        android:text="KEPALA SEKOLAH"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:textColor="#4CAF50"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="2086774289 157892 1 004"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -91,47 +97,45 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/abukosim" />
+                    android:src="@drawable/guruprakarya"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Abu Kosim"
+                        android:layout_marginLeft="50dp"
+                        android:text="Soleh Mulyadi, S.Pd
+                                      Uswatun Khasanah,S.Pd"
                         android:textColor="#000"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
-
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="NIP: 196711292007011006"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
+                        android:layout_marginLeft="50dp"
+                        android:text="Guru prakarya"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:textColor="#4CAF50"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:layout_marginLeft="50dp"
+                        android:text="2086774289 157892 1 004"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -151,47 +155,46 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/andyartini" />
+                    android:src="@drawable/gurubk"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Andyartini"
+                        android:layout_marginLeft="50dp"
+                        android:text="Muh.Firman Adi, S.Pd
+                                      Luthfi Alfikri, S.Pd
+                                       Dra Sri Sumarni"
                         android:textColor="#000"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
-
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="NIP: 196803041990032007"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
+                        android:layout_marginLeft="50dp"
+                        android:text="Guru BK"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:textColor="#4CAF50"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:layout_marginLeft="50dp"
+                        android:text="2086774289 157892 1 004"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -211,47 +214,46 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/budiraharjo" />
+                    android:src="@drawable/gurupenjas"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Budi Raharjo"
+                        android:layout_marginLeft="50dp"
+                        android:text="Iwan Kurniawan, S.Pd
+                                       Budi Raharjo, S.Pd
+                                       Fajar Dwi Kurniawan,S.pd"
                         android:textColor="#000"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
-
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="NIP: 196411182006041003"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
+                        android:layout_marginLeft="50dp"
+                        android:text="Guru penjas"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:textColor="#4CAF50"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:layout_marginLeft="50dp"
+                        android:text="2086774289 157892 1 004"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -271,47 +273,47 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/dyahrianawati" />
+                    android:src="@drawable/guruppkn"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Dyah RIanawati"
+                        android:layout_marginLeft="50dp"
+                        android:text="Rini Palupi
+                                      Rosna Eda, S.Pd
+                                      Subiyati, S.Pd
+                                      Febriansyah Hadi SHS, S.Pd"
                         android:textColor="#000"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
-
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="NIP--"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
+                        android:layout_marginLeft="50dp"
+                        android:text="Guru PPKN"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:textColor="#4CAF50"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:layout_marginLeft="50dp"
+                        android:text="2086774289 157892 1 004"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -331,280 +333,48 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/edipurnama"/>
+                    android:src="@drawable/gurubj"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
                         android:gravity="center"
-                        android:text="Edi purnama"
+                        android:layout_marginLeft="50dp"
+                        android:text="Aniq Fasiliasi, S.Pd
+                                      Komarudin, S.Pd.i
+                                      Dyah Rianawati,S.Pd"
                         android:textColor="#000"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
-
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text="NIP: 196111231984031002"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
+                        android:layout_marginLeft="50dp"
+                        android:text="Guru Bahasa Jawa"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:textColor="#4CAF50"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
                         android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/endangnoorsuprapti" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="100dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
-                        android:gravity="center"
-                        android:text="Endang Noor Suprapti"
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text="NIP: 196405251985012006"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/endangsulistiyanti" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="100dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
-                        android:gravity="center"
-                        android:text="Endang Sulistiyanti"
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text="NIP: 19790307201406200"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="100dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
-                        android:gravity="center"
-                        android:text="Hari Suciyanto"
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text="-Guru Bahasa Indonesia"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/herianti" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="100dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
-                        android:gravity="center"
-                        android:text="Ika Dina Riyantini, M.Pd."
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text="-Koordinator Kelas Intensif"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:gravity="center"
-                        android:text="-Guru Seni Budaya / Prakarya"
-                        android:textColor="@color/purple_500"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:layout_marginLeft="50dp"
+                        android:text="2086774289 157892 1 004"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_row="0"
-                android:layout_column="9"
-                android:layout_gravity="center_vertical"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/harisuciyanto" />
         </GridLayout>
+
     </ScrollView>
+
 </RelativeLayout>

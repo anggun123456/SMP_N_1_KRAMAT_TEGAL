@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag2"
-    tools:context=".Buku7Activity">
+    tools:context=".buku7Activity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -94,7 +93,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/mtk1kls7"
+                                        android:src="@drawable/mat1kls7"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -144,7 +143,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/mtk2kls7"
+                                        android:src="@drawable/mat2kls7"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -624,7 +623,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/penjaskls7"
+                                        android:src="@drawable/penjaskl7"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -667,7 +666,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/snbdykls7"
+                                        android:src="@drawable/senikls7"
                                         android:layout_margin="10dp"/>
 
                                     <TextView

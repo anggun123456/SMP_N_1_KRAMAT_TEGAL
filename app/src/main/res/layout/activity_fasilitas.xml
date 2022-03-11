@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag2"
-    tools:context=".FasilitasActivity">
+    tools:context=".fasilitasActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -29,19 +28,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/sklh"/>
+                        android:src="@drawable/headerfasilitas"/>
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/masjid"/>
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/basket1"/>
+                        android:src="@drawable/headersakra"/>
 
                 </ViewFlipper>
             </RelativeLayout>
@@ -73,7 +66,7 @@
                         android:layout_width="match_parent"
                         android:layout_gravity="center"
                         android:layout_height="match_parent"
-                        android:background="#FF8C00"
+                        android:background="#F8FAF6"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -118,7 +111,7 @@
                         android:layout_width="match_parent"
                         android:layout_gravity="center"
                         android:layout_height="match_parent"
-                        android:background="#00FF00"
+                        android:background="#009688"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -163,7 +156,7 @@
                         android:layout_width="match_parent"
                         android:layout_gravity="center"
                         android:layout_height="match_parent"
-                        android:background="#FF8C00"
+                        android:background="#03A9F4"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -208,7 +201,7 @@
                         android:layout_width="match_parent"
                         android:layout_gravity="center"
                         android:layout_height="match_parent"
-                        android:background="#FF8C00"
+                        android:background="#4CAF50"
                         android:orientation="horizontal">
 
                         <ImageView

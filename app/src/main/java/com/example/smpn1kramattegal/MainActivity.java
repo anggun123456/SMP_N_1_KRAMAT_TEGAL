@@ -35,11 +35,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void Guru(View view) {
-        Intent intent = new Intent(MainActivity.this, guruActivity.class);
-        startActivity(intent);
-    }
-
     public void Ekskul(View view) {
         Intent intent = new Intent(MainActivity.this, EkskulActivity.class);
         startActivity(intent);

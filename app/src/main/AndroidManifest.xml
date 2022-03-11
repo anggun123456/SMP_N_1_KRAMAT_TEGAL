@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN1KRAMATTEGAL">
         <activity
+            android:name=".volyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".drumbandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".karateActivity"
+            android:exported="false" />
+        <activity
             android:name=".buku9Activity"
             android:exported="false" />
         <activity

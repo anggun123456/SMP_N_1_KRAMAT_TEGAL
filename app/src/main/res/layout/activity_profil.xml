@@ -107,140 +107,110 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="Nama Sekolah : SMPN 2 TEGAL"
-                            android:textColor="#000"
                             android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="Nama Sekolah : SMP N 1 KRAMAT"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="NPSN: 20329833"
-                            android:textColor="#000"
                             android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="NPSN: 20325347"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="Alamat : Jl. Menteri Supeno No 3 Tegal"
-                            android:textColor="#000"
                             android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="Alamat : JL. JALI DAMPYAK"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="Kode Pos : 52124"
-                            android:textColor="#000"
                             android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="Kode Pos : 52181"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="Desa / Kelurahan : KEJAMBON"
-                            android:textColor="#000"
                             android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="Desa / Kelurahan : Dampyak"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="Kecamatan / Kota (LN) : Kec. Tegal Timur"
-                            android:textColor="#000"
                             android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="Kecamatan / Kota (LN) : Kec. Kramat"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="Kab. / Kota / Negara (LN) : Kota Tegal"
-                            android:textColor="#000"
                             android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="Kab. / Kota / Negara (LN) : Kab. Tegal"
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
                             android:text="Provinsi / Luar Negeri : Jawa Tengah"
-                            android:textColor="#000"
-                            android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
                             android:text="Status Sekolah : Negeri"
-                            android:textColor="#000"
-                            android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
                             android:text="Waktu belajar : Sekolah Pagi / 6 hari"
-                            android:textColor="#000"
-                            android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
                             android:text="Jenjang Pendidikan : SMP"
-                            android:textColor="#000"
-                            android:textSize="13sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Kurikulum : SMP 2013"
-                            android:textColor="#000"
-                            android:textSize="13sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Akreditasi : A"
-                            android:textColor="#000"
-                            android:textSize="13sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Email : smpn2tegal@yahoo.com"
-                            android:textColor="#000"
-                            android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textColor="#000"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -248,12 +218,13 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
-                            android:text="Website : http://www.smpn2tegal.sch.id"
-                            android:textColor="#000"
                             android:textSize="13sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:text="Kurikulum : SMP 2013"
+                            android:textColor="#000"/>
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -274,35 +245,166 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/logopmr"/>
+                        android:src="@drawable/logosmpkramat"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
-                        android:textColor="#000"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:text="ORGANISASI PMR"/>
+                        android:layout_marginTop="15dp"
+                        android:text="VISI SMP N1 KRAMAT"
+                        android:textColor="#0000FF"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Jl. JALI, DAMPYAK Rt.1 Rw.4 Dampyak, Kramat, Surabayan, Dampyak Kec.Kramat Kabupaten Tegal, Jawa Tengah 52181"
+                        android:textSize="10sp" />
 
                     <LinearLayout
-                        android:layout_marginTop="75dp"
                         android:layout_width="wrap_content"
+                        android:layout_marginTop="95dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:text="">
-                        </TextView>
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="Berakhlak mulia,Berprestasi,ber-iptek,dan ramah lingkungan"
+                            android:textColor="#000"/>
+
 
 
                     </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logosmpkramat"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="15dp"
+                        android:text="MISI SMP N 1 KRAMAT"
+                        android:textColor="#0000FF"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Jl. JALI, DAMPYAK Rt.1 Rw.4 Dampyak, Kramat, Surabayan, Dampyak Kec.Kramat Kabupaten Tegal, Jawa Tengah 52181"
+                        android:textSize="10sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="95dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="1.Melaksanakan kegiatan yang dapat meningkatkan iman dan taqwa untuk membentuk karakter yang berakhlak mulia,mental yang kuat,bermoral,semangat tinggi,dan santun."
+                            android:textColor="#000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="2.Mewujudkan warga sekolah yang disiplin,teladan,gotong royong,jujur,mandiri dan ramah lingkungan."
+                            android:textColor="#000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="3.Melaksanakan pembelajaran yang aktif,inovatif,kreatif,efektif dan menyenangkan bagi guru dan peserta didik untuk meraih prestasi."
+                            android:textColor="#000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="4.Mewujudkan kegiatan yang dapat mendukung tercapainya pretasi dibidang akademik dan non akademik."
+                            android:textColor="#000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="5.Meningkatkan pelayanan pendidikan secara professional dan proposional sesuai dengan tuntunan dan perkembangan zaman."
+                            android:textColor="#000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="6.Memiliki wawasan luas, tanggap terhadap perkembangan IPTEK,dan menumbuhkan rasa nasionalisme."
+                            android:textColor="#000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="7.Meningkatkan kerjasama sekolah dengan peserta didik,orangtua,komite sekolah,masyarakat,dan pemerintah"
+                            android:textColor="#000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="8.Mewujudkan sekolah ramah lingkungan dengan menciptakan lingkungan yang bersih,rindang,nyaman,aman,sehat tertata rapi,dan indah."
+                            android:textColor="#000"/>
+                    </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
             </GridLayout>

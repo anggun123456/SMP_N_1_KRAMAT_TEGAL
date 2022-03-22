@@ -13,11 +13,11 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class EkskulActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.ekskul1,
-            R.drawable.ekskul2,
-            R.drawable.ekskul1,
-            R.drawable.ekskul2,
-            R.drawable.ekskul1};
+    int[] images = {R.drawable.headersakra,
+            R.drawable.gurusmp,
+            R.drawable.headersakra,
+            R.drawable.gurusmp,
+            R.drawable.headersakra};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -12,11 +12,11 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class PerpusActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.membaca1,
-            R.drawable.ekskul1,
-            R.drawable.membaca1,
-            R.drawable.ekskul2,
-            R.drawable.membaca1};
+    int[] images = {R.drawable.headersakra,
+            R.drawable.gurusmp,
+            R.drawable.headersakra,
+            R.drawable.gurusmp,
+            R.drawable.headersakra};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,11 +34,17 @@ public class PerpusActivity extends AppCompatActivity {
     }
 
     public void buku7(View view) {
+        Intent intent = new Intent(PerpusActivity.this, buku7Activity.class);
+        startActivity(intent);
     }
 
     public void buku8(View view) {
+        Intent intent = new Intent(PerpusActivity.this, buku8Activity.class);
+        startActivity(intent);
     }
 
     public void buku9(View view) {
+        Intent intent = new Intent(PerpusActivity.this, buku9Activity.class);
+        startActivity(intent);
     }
 }

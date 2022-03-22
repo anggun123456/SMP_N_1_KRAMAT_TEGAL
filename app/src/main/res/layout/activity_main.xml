@@ -19,10 +19,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <ViewFlipper
-                    android:id="@+id/viewFlipper"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -30,20 +26,6 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/gurusmp" />
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="210dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/headersakra" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="210dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/header" />
-
-
-                </ViewFlipper>
             </RelativeLayout>
             <!--Header-->
             <!--            pembuka variabel menu 1 dan 2-->
@@ -63,6 +45,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="profil"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -76,8 +59,7 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:onClick="profil"
-                                android:src="@drawable/profil"/>
+                                android:src="@drawable/profil" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -105,6 +87,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="Guru"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -116,7 +99,6 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:onClick="Guru"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/guru"/>
                             <TextView
@@ -160,6 +142,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
+                            android:onClick="Ekskul"
                             android:orientation="vertical">
 
                             <ImageView
@@ -167,7 +150,6 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:onClick="Ekskul"
                                 android:src="@drawable/ekstrakulikuler" />
 
                             <TextView
@@ -196,6 +178,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="fasilitas"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -209,17 +192,16 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:onClick="Fasilitas"
                                 android:src="@drawable/fasilitas" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:text="FASILTAS"
+                                android:text="FASILITAS"
                                 android:textColor="#000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -247,6 +229,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="Perpus"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -260,7 +243,6 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:onClick="Perpus"
                                 android:src="@drawable/perpus" />
 
                             <TextView
@@ -284,11 +266,11 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                    <androidx.cardview.widget.CardView                     android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="Galeri"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -300,7 +282,6 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:onClick="Galeri"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/galeri"/>
                             <TextView

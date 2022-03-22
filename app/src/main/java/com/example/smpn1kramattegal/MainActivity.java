@@ -10,23 +10,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ViewFlipper;
 
 public class MainActivity extends AppCompatActivity {
-    ViewFlipper viewFlipper;
-    Animation fadein,fadeout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        viewFlipper =(ViewFlipper) findViewById(R.id.viewFlipper);
-        fadein = AnimationUtils.loadAnimation(this,R.anim.fade_in);
-        fadeout=AnimationUtils.loadAnimation(this,R.anim.fade_out);
-
-        viewFlipper.setInAnimation(fadein);
-        viewFlipper.setOutAnimation(fadein);
-
-        viewFlipper.setAutoStart(true);
-        viewFlipper.setFlipInterval(5000);
-        viewFlipper.startFlipping();
     }
 
 
@@ -35,15 +22,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Guru(View view) {
+        Intent intent = new Intent(MainActivity.this, guruActivity.class);
+        startActivity(intent);
+    }
+
     public void Ekskul(View view) {
         Intent intent = new Intent(MainActivity.this, EkskulActivity.class);
         startActivity(intent);
     }
 
-    public void Fasilitas(View view) {
-        Intent intent = new Intent(MainActivity.this, fasilitasActivity.class);
-        startActivity(intent);
-    }
 
     public void Perpus(View view) {
         Intent intent = new Intent(MainActivity.this, PerpusActivity.class);
@@ -52,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void Galeri(View view) {
         Intent intent = new Intent(MainActivity.this, GaleriActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void fasilitas(View view) {
+        Intent intent = new Intent(MainActivity.this, FasilitasActivity.class);
         startActivity(intent);
     }
 }

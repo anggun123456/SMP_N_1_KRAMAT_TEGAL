@@ -1,57 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fasilitasActivity">
+    tools:context=".FasilitasActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:padding="15dp">
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="188dp">
-
-                <ViewFlipper
-                    android:layout_width="match_parent"
-                    android:id="@+id/viewFlipper"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/headerfasilitas"/>
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/headersakra"/>
-
-                </ViewFlipper>
-            </RelativeLayout>
             <GridLayout
                 android:id="@+id/mainGrid"
                 android:layout_width="match_parent"
-                android:layout_weight="9"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
+                android:layout_weight="9"
                 android:alignmentMode="alignMargins"
                 android:columnCount="1"
-                android:columnOrderPreserved="false">
+                android:columnOrderPreserved="false"
+                android:rowCount="2">
 
-                <!--                            Pembuka Menu 1-->
                 <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
@@ -59,44 +36,98 @@
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp"
-                    android:onClick="Kelas">
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logosmpkramat"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="PERPUSTAKAAN"/>
+
+
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_height="match_parent"
-                        android:background="#F8FAF6"
-                        android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
-                        <ImageView
-                            android:layout_gravity="center"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/logomushola">
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                        </ImageView>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="12dp"
+                                        android:layout_marginTop="60dp"
+                                        android:src="@drawable/gurusmp"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginTop="60dp"
+                                        android:layout_marginRight="12dp"
+                                        android:src="@drawable/headersakra"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="7dp"
+                                    android:layout_height="match_parent"/>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="50dp"
-                            android:textStyle="bold"
-                            android:text="Musholla">
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:textColor="#000"
+                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
-                        </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-                <!--                        Penutup Menu1-->
 
-                <!--                            Pembuka Menu 2-->
                 <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
@@ -104,44 +135,98 @@
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp"
-                    android:onClick="lapanganbasket">
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logosmpkramat"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="LAB. KOMPUTER"/>
+
+
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_height="match_parent"
-                        android:background="#009688"
-                        android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
-                        <ImageView
-                            android:layout_gravity="center"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/logolab">
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                        </ImageView>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="12dp"
+                                        android:layout_marginTop="60dp"
+                                        android:src="@drawable/lab1"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginTop="60dp"
+                                        android:layout_marginRight="12dp"
+                                        android:src="@drawable/headersakra"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="7dp"
+                                    android:layout_height="match_parent"/>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="50dp"
-                            android:textStyle="bold"
-                            android:text="Lab.Komputer">
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textColor="#000"
+                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
-                        </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-                <!--                        Penutup Menu2-->
 
-                <!--                            Pembuka Menu 3-->
                 <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
@@ -149,44 +234,98 @@
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp"
-                    android:onClick="Kelas">
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logosmpkramat"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="MUSHOLA"/>
+
+
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_height="match_parent"
-                        android:background="#03A9F4"
-                        android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
-                        <ImageView
-                            android:layout_gravity="center"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/logoperpus">
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                        </ImageView>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="12dp"
+                                        android:layout_marginTop="60dp"
+                                        android:src="@drawable/mushola"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginTop="60dp"
+                                        android:layout_marginRight="12dp"
+                                        android:src="@drawable/headersakra"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="7dp"
+                                    android:layout_height="match_parent"/>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="50dp"
-                            android:textStyle="bold"
-                            android:text="Perpustakaan">
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:textColor="#000"
+                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
-                        </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-                <!--                        Penutup Menu3-->
 
-                <!--                            Pembuka Menu 4-->
                 <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
@@ -194,41 +333,97 @@
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp"
-                    android:onClick="Kelas">
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logosmpkramat"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="TAMAN"/>
+
+
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_height="match_parent"
-                        android:background="#4CAF50"
-                        android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
-                        <ImageView
-                            android:layout_gravity="center"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/logolapangan">
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                        </ImageView>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="12dp"
+                                        android:layout_marginTop="60dp"
+                                        android:src="@drawable/taman2"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginTop="60dp"
+                                        android:layout_marginRight="12dp"
+                                        android:src="@drawable/headersakra"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="7dp"
+                                    android:layout_height="match_parent"/>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="50dp"
-                            android:textStyle="bold"
-                            android:text="Lapangan voli">
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:textColor="#000"
+                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
-                        </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-                <!--                        Penutup Menu4-->
-
             </GridLayout>
-        </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
     </ScrollView>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

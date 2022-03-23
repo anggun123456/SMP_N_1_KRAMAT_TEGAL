@@ -13,11 +13,11 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class EkskulActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.headersakra,
-            R.drawable.gurusmp,
-            R.drawable.headersakra,
-            R.drawable.gurusmp,
-            R.drawable.headersakra};
+    int[] images = {R.drawable.welcome,
+            R.drawable.headerr2,
+            R.drawable.welcome,
+            R.drawable.headerr2,
+            R.drawable.welcome};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,8 +55,12 @@ public class EkskulActivity extends AppCompatActivity {
     }
 
     public void karate(View view) {
+        Intent intent = new Intent(EkskulActivity.this, SilatActivity.class);
+        startActivity(intent);
     }
 
-    public void basket(View view) {
+    public void drumb(View view) {
+        Intent intent = new Intent(EkskulActivity.this, drumbandActivity.class);
+        startActivity(intent);
     }
 }

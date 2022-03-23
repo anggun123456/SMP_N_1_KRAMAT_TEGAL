@@ -23,4 +23,13 @@ public class buku7Activity extends AppCompatActivity {
         Intent launcherBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(launcherBrowser);
     }
+
+    public void ipa1kls7(View view) {
+    }
+
+    public void ppkn7(View view) {
+    }
+
+    public void penjas7(View view) {
+    }
 }

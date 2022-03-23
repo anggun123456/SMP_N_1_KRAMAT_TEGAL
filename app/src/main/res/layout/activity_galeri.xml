@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GaleriActivity">
+    tools:context=".GaleriActivity"
+    android:background="@drawable/backgroundd">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -28,7 +29,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/headersakra"/>
+                        android:src="@drawable/headerr2"/>
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -187,20 +188,7 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <!--                        Penutup Menu3-->
-               <androidx.cardview.widget.CardView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp"
-                    android:onClick="albumpmr">
-
-               </androidx.cardview.widget.CardView>
+              
 
 
 

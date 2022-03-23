@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FasilitasActivity">
+    tools:context=".FasilitasActivity"
+    android:background="@drawable/backgroundd">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -200,7 +201,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginTop="60dp"
                                         android:layout_marginRight="12dp"
-                                        android:src="@drawable/headersakra"/>
+                                        android:src="@drawable/lab2"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -299,7 +300,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginTop="60dp"
                                         android:layout_marginRight="12dp"
-                                        android:src="@drawable/headersakra"/>
+                                        android:src="@drawable/musholahhh"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -398,7 +399,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginTop="60dp"
                                         android:layout_marginRight="12dp"
-                                        android:src="@drawable/headersakra"/>
+                                        android:src="@drawable/tamann"/>
 
                                 </LinearLayout>
                                 <RelativeLayout

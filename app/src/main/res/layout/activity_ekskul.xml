@@ -78,7 +78,7 @@
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#FF8C00"
+                                        android:background="@drawable/bgrnn"
                                         android:padding="10dp">
 
                                         <TextView
@@ -118,7 +118,7 @@
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#B22"
+                                        android:background="@drawable/bgrnn"
                                         android:padding="10dp">
 
                                         <TextView
@@ -158,7 +158,7 @@
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#008000"
+                                        android:background="@drawable/bgrnn"
                                         android:padding="10dp">
 
                                         <TextView
@@ -202,7 +202,7 @@
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#DAA520"
+                                        android:background="@drawable/bgrnn"
                                         android:padding="10dp">
 
                                         <TextView
@@ -240,7 +240,7 @@
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#D3D3D3"
+                                        android:background="@drawable/bgrnn"
                                         android:padding="10dp">
 
                                         <TextView
@@ -264,6 +264,120 @@
                             </LinearLayout>
 
                             <!--                            Penutup Menu 6-->
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_marginTop="20dp"
+                                    android:onClick="Paskibra">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/bgrnn"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Paskibra"
+                                            android:textColor="#fff"
+                                            android:textSize="30sp"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="100dp"
+                                            android:layout_alignParentRight="true"
+                                            android:maxHeight="100dp"
+                                            android:src="@drawable/bariss" />
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_marginTop="20dp"
+                                    android:onClick="Senitari">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/bgrnn"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Senitari"
+                                            android:textColor="#fff"
+                                            android:textSize="30sp"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="100dp"
+                                            android:layout_alignParentRight="true"
+                                            android:maxHeight="100dp"
+                                            android:src="@drawable/logotarii" />
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_marginTop="20dp"
+                                    android:onClick="Sepakbola">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/bgrnn"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Sepakbola"
+                                            android:textColor="#fff"
+                                            android:textSize="30sp"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="100dp"
+                                            android:layout_alignParentRight="true"
+                                            android:maxHeight="100dp"
+                                            android:src="@drawable/football" />
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
                         </GridLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </androidx.core.widget.NestedScrollView>

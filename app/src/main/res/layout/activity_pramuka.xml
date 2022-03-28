@@ -86,7 +86,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="ORGANISASI PRAMUKA"/>
+                        android:text="PRAMUKA"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="42dp"
                         android:textSize="18sp"
-                        android:text="SMK YPT KOTA TEGAL"/>
+                        android:text="SMP N 1 KRAMAT"/>
 
                     <LinearLayout
                         android:layout_marginTop="75dp"
@@ -108,7 +108,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">
+                            android:text="Pramuka adalah singkatan dari Praja Muda Karana dan merupakan organisasi atau gerakan kepanduan. Pramuka adalah sebuah organisasi yang merupakan wadah proses pendidikan kepramukaan yang dilaksanakan di Indonesia. Dalam dunia internasional, Pramuka disebut dengan istilah “Kepanduan” (Boy Scout),Tujuan Pramuka Pada dasarnya kegiatan Kepramukaan memiliki tujuan untuk melatih generasi muda agar memaksimalkan setiap potensi yang ada di dalam dirinya, baik itu intelektual, spiritual, sosial, dan fisik.">
                         </TextView>
 
                         <TextView

@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN1KRAMATTEGAL">
         <activity
+            android:name=".AlbumprestasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SenitariActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaskibraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SepakbolaActivity"
+            android:exported="false" />
+        <activity
             android:name=".SilatActivity"
             android:exported="false" />
         <activity

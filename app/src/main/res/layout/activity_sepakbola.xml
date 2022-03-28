@@ -48,6 +48,7 @@
             android:padding="15dp">
 
             <GridLayout
+                android:id="@+id/mainGrid"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
@@ -75,7 +76,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/logovolii"/>
+                        android:src="@drawable/spkbola"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -85,7 +86,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="VOLY"/>
+                        android:text="SEPAKBOLA"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -107,8 +108,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Bola voli adalah permainan olahraga yang dimainkan oleh dua grup berlawanan. Masing-masing grup memiliki enam orang pemain. Terdapat pula variasi permainan bola voli pantai yang masing-masing timnya hanya memiliki dua orang pemain. Olahraga ini dinaungi FIVB sebagai induk organisasi internasional.tujuan dari permainan bola voli adalah melewatkan bola di atas net agar dapat jatuh menyentuh lantai lapangan lawan, untuk mencegah bola yang sama dari lawan.">
-                        </TextView>
+                            android:text="Sepak bola asosiasi atau hanya sepak bola adalah cabang olahraga yang menggunakan bola yang pada umumnya terbuat dari bahan kulit, yang disebut (bola sepak), dan dimainkan oleh dua tim yang masing-masing beranggotakan 11 orang pemain inti dan beberapa pemain cadangan,Tujuan dari permainan sepak bola adalah mencetak gol ke gawang lawan dan mempertahankan gawang sendiri agar tidak kemasukan gol.">                 </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"

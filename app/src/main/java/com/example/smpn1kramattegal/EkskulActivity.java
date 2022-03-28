@@ -63,4 +63,19 @@ public class EkskulActivity extends AppCompatActivity {
         Intent intent = new Intent(EkskulActivity.this, drumbandActivity.class);
         startActivity(intent);
     }
+
+    public void Paskibra(View view) {
+        Intent intent = new Intent(EkskulActivity.this, PaskibraActivity.class);
+        startActivity(intent);
+    }
+
+    public void Senitari(View view) {
+        Intent intent = new Intent(EkskulActivity.this, SenitariActivity.class);
+        startActivity(intent);
+    }
+
+    public void Sepakbola(View view) {
+        Intent intent = new Intent(EkskulActivity.this, SepakbolaActivity.class);
+        startActivity(intent);
+    }
 }

@@ -76,7 +76,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/logopmr"/>
+                        android:src="@drawable/logodrambandd"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="EKSKUL DRUMBAND"/>
+                        android:text="DRUMBAND"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">
+                            android:text="Drumben adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik (tiup, perkusi, dan sejumlah instrumen pit) secara bersama-sama. Penampilan drumben merupakan kombinasi dari permainan musik (tiup, dan perkusi) serta aksi baris-berbaris dari pemainnya. Umumnya, penampilan Drumben dipimpin oleh satu atau dua orang Komandan Lapangan dan dilakukan baik di lapangan terbuka maupun lapangan tertutup dalam barisan yang membentuk formasi dengan pola yang senantiasa berubah-ubah sesuai dengan alur koreografi terhadap lagu yang dimainkan, dan diiringi pula dengan aksi tarian yang dilakukan oleh sejumlah pemain bendera.">
                         </TextView>
 
                         <TextView

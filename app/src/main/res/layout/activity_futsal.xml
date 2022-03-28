@@ -108,7 +108,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">
+                            android:text="Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki. Selain lima pemain utama, setiap regu juga diizinkan memiliki pemain cadangan.Hampir sama dengan bermain sepak bola, futsal juga bertujuan mencetak gol lebih banyak supaya menjadi pemenang. Bedanya, olahraga ini berlangsung di lapangan lebih kecil, serta dimainkan dua tim dengan masing-masing menurunkan lima pemain, yakni satu penjaga gawang, dua bek, dan dua penyerang.">
                         </TextView>
 
                         <TextView

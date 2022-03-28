@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".volyActivity"
+    tools:context=".PaskibraActivity"
     android:background="@drawable/backgroundd">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -48,6 +48,7 @@
             android:padding="15dp">
 
             <GridLayout
+                android:id="@+id/mainGrid"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
@@ -75,7 +76,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/logovolii"/>
+                        android:src="@drawable/logopaskib"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -85,7 +86,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="VOLY"/>
+                        android:text="PASKIBRA"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -107,8 +108,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Bola voli adalah permainan olahraga yang dimainkan oleh dua grup berlawanan. Masing-masing grup memiliki enam orang pemain. Terdapat pula variasi permainan bola voli pantai yang masing-masing timnya hanya memiliki dua orang pemain. Olahraga ini dinaungi FIVB sebagai induk organisasi internasional.tujuan dari permainan bola voli adalah melewatkan bola di atas net agar dapat jatuh menyentuh lantai lapangan lawan, untuk mencegah bola yang sama dari lawan.">
-                        </TextView>
+                            android:text="Paskibraka adalah singkatan dari Pasukan Pengibar Bendera Pusaka dengan tugas utamanya untuk mengibarkan dan menurunkan Bendera Pusaka dalam upacara peringatan Hari Kemerdekaan Republik Indonesia dan Proklamasi Kemerdekaan Republik Indonesia di tiga tempat, yakni tingkat kabupaten/kota, provinsi, dan nasionalTujuan dari paskibra sendiri adalah membangun etika kebersamaan, kekompakan, dan kerja sama. Dalam mempersiapkan sebuah acara penaikan bendera dibutuhkan mental dan fisik dari semua petugas. Tak butuh waktu yang cukup lama untuk berlatih, hanya 2 minggu.">      </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"

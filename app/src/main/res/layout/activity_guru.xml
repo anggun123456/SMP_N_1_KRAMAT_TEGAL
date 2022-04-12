@@ -23,8 +23,8 @@
             android:rowCount="4">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -54,11 +54,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
+                        android:text="HENING HARYANTI,S.Pd,M.Pd."
                         android:gravity="center"
-                        android:text="HENING HARYANTI,S.Pd,M.Pd"
                         android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -68,21 +68,23 @@
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19680713 199412 2 004"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -107,30 +109,33 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Drs.Mulyo Harsono"
+                        android:text="Rusyanto,S.Pd."
                         android:textColor="#090909"
-                        android:textSize="20sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="GURU"
+                        android:text="GURU IPS"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19721106 199702 1 002"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -138,8 +143,8 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -164,30 +169,33 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Ade Urip Panca W,S.Pd"
-                        android:textColor="#000"
-                        android:textSize="20sp"
+                        android:text="Sukandi Karyono,S.Pd."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="GURU"
+                        android:text="GURU MTK"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19690508 199203 1 002"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -195,8 +203,8 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -221,30 +229,33 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Triani Rahayu P,S,Pd"
-                        android:textColor="#000"
-                        android:textSize="20sp"
+                        android:text="Dra.Sri Sumarni."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="GURU"
+                        android:text="GURU BK"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19650706 199512 2 002"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -252,8 +263,8 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -278,30 +289,33 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Dra.Sri Haryani"
-                        android:textColor="#000"
-                        android:textSize="20sp"
+                        android:text="Dra.Sri Haryati"
+                        android:textColor="#090909"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="GURU"
+                        android:text="GURU MTK"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19651226 199512 2 001"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
@@ -309,8 +323,8 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -335,39 +349,41 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Sukandi Karyono,S.Pd"
-                        android:textColor="#000"
-                        android:textSize="20sp"
+                        android:text="Drs.Setiawan Eko Nugroho."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="GURU"
+                        android:text="GURU IPS"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19680730 199702 1 001"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -392,38 +408,41 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Asfa Izzadihar,S.Pd"
-                        android:textColor="#000"
-                        android:textSize="20sp"
+                        android:text="Andyartini, S.Pd."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="KEPALA SEKOLAH"
+                        android:text="GURU B.INGGRIS"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19680304 199003 2 007"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -448,39 +467,41 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Adip Luthfi N,S.Pd"
-                        android:textColor="#000"
-                        android:textSize="20sp"
+                        android:text="Endang Noor Suprapti, S.Pd."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="KEPALA SEKOLAH"
+                        android:text="GURU IPS"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19640525 198501 2 006"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -505,39 +526,41 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Rizki Ma'rifatun Nisa,S.Pd"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
+                        android:text="Siyami, S.Pd."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="KEPALA SEKOLAH"
+                        android:text="GURU B.INDONESIA"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19630222 198403 2 005"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -562,35 +585,216 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="100dp"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="Herianti,S.Pd"
-                        android:textColor="#000"
-                        android:textSize="20sp"
+                        android:text="Winarti, S.Pd."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="KEPALA SEKOLAH"
+                        android:text="GURU B.INDONESIA"
                         android:textColor="#000000"
                         android:textSize="17dp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:gravity="center"
-                        android:text="2086774289 157892 1 804"
+                        android:text="19641225 198601 2 002"
                         android:textColor="#AAAAAA"
                         android:textSize="17dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/rizki" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="100dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="Sunardi, S.Pd.I."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="GURU B.INGGRIS,PAI,DAN BP"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="19681110 199003 1 015"
+                        android:textColor="#AAAAAA"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/rizki" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="100dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="Yuni Suparti, S.Pd."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="GURU SBY"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="19650627 198703 2 009"
+                        android:textColor="#AAAAAA"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/rizki" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="100dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="Winarti, S.Pd."
+                        android:textColor="#090909"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="GURU B.INDONESIA"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center"
+                        android:text="19641225 198601 2 002"
+                        android:textColor="#AAAAAA"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
         </GridLayout>
     </ScrollView>
 

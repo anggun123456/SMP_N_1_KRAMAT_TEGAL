@@ -103,16 +103,8 @@
                                         android:layout_gravity="center"
                                         android:text="MATEMATIKA"
                                         android:textColor="@color/black"
-                                        android:textSize="20dp"
+                                        android:textSize="19dp"
                                         android:textStyle="bold" />
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 1"
-                                        android:textSize="10dp" />
-
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -132,7 +124,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7"
+                                    android:onClick="ips"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -144,25 +136,17 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/mat2kls7"
+                                        android:src="@drawable/ips"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="MATEMATIKA"
+                                        android:text="IPS"
                                         android:layout_gravity="center"
                                         android:textSize="20dp"
                                         android:textStyle="bold"
                                         android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 2"
-                                        android:textSize="10dp"/>
-
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -190,7 +174,49 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipa1kls7"
+                                    android:onClick="pai"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/paikls7"
+                                        android:layout_margin="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="PAI"
+                                        android:textColor="@color/black"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="200dp"
+                            android:layout_margin="20dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:onClick="ipa"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -213,64 +239,6 @@
                                         android:textSize="20dp"
                                         android:textStyle="bold"
                                         android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 1"
-                                        android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:onClick="mat7"
-                                    android:autoLink="web"
-                                    android:clickable="true"
-                                    android:cursorVisible="true"
-                                    android:linksClickable="true"
-                                    android:gravity="center"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/ipa2kls7"
-                                        android:layout_margin="10dp"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="IPA"
-                                        android:layout_gravity="center"
-                                        android:textSize="20dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 2"
-                                        android:textSize="10dp"/>
-
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -298,7 +266,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7"
+                                    android:onClick="prakarya"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -321,14 +289,6 @@
                                         android:textSize="20dp"
                                         android:textStyle="bold"
                                         android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 1"
-                                        android:textSize="10dp"/>
-
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -348,7 +308,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7"
+                                    android:onClick="penjas"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -360,25 +320,17 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/prakarya2kls7"
+                                        android:src="@drawable/penjaskl7"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="PRAKARYA"
+                                        android:text="PENJAS"
                                         android:layout_gravity="center"
                                         android:textSize="20dp"
                                         android:textStyle="bold"
                                         android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 2"
-                                        android:textSize="10dp"/>
-
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -411,7 +363,7 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="mat7"
+                                    android:onClick="bindo"
                                     android:orientation="vertical">
 
                                     <ImageView
@@ -463,7 +415,7 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="mat7"
+                                    android:onClick="bing"
                                     android:orientation="vertical">
 
                                     <ImageView
@@ -561,101 +513,7 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7"
-                                    android:autoLink="web"
-                                    android:clickable="true"
-                                    android:cursorVisible="true"
-                                    android:linksClickable="true"
-                                    android:gravity="center"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/paikls7"
-                                        android:layout_marginBottom="20dp"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="PAI"
-                                        android:layout_gravity="center"
-                                        android:textSize="20dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:weightSum="2">
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:onClick="penjas7"
-                                    android:autoLink="web"
-                                    android:clickable="true"
-                                    android:cursorVisible="true"
-                                    android:linksClickable="true"
-                                    android:gravity="center"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/penjaskl7"
-                                        android:layout_marginBottom="20dp"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="PENJAS"
-                                        android:layout_gravity="center"
-                                        android:textSize="20dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:onClick="mat7"
+                                    android:onClick="senibudaya"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -691,12 +549,8 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-
                         </LinearLayout>
-
                     </LinearLayout>
-
-
                 </LinearLayout>
             </GridLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

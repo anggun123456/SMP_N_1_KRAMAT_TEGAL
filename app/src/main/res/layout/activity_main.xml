@@ -44,7 +44,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/bgrnn"
+                        android:background="@color/ic_launcher_background"
                         android:padding="10dp">
 
                         <TextView
@@ -53,7 +53,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:text="Profil"
-                            android:textColor="#fff"
+                            android:textColor="#000000"
                             android:textSize="30sp"
                             android:textStyle="bold" />
 
@@ -91,7 +91,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="@drawable/bgrnn"
+                            android:background="@color/ic_launcher_background"
                             android:onClick="Ekskul"
                             android:orientation="vertical">
 
@@ -107,7 +107,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="EKSKUL"
-                                android:textColor="#FFFFFF"
+                                android:textColor="#000000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
@@ -135,7 +135,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="@drawable/bgrnn"
+                            android:background="@color/ic_launcher_background"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
@@ -148,7 +148,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="GURU"
-                                android:textColor="#FFFFFF"
+                                android:textColor="#000000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
@@ -173,7 +173,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="@drawable/bgrnn"
+                            android:background="@color/ic_launcher_background"
                             android:orientation="vertical">
 
                             <ImageView
@@ -188,7 +188,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="FASILITAS"
-                                android:textColor="#FFFFFF"
+                                android:textColor="#000000"
                                 android:textSize="20dp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -227,7 +227,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="@drawable/bgrnn"
+                            android:background="@color/ic_launcher_background"
                             android:orientation="vertical">
 
                             <ImageView
@@ -242,7 +242,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="PERPUS"
-                                android:textColor="#FFFFFF"
+                                android:textColor="#000000"
                                 android:textSize="20dp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -270,7 +270,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:background="@drawable/bgrnn"
+                            android:background="@color/ic_launcher_background"
                             android:orientation="vertical">
                             <ImageView
                                 android:layout_width="80dp"
@@ -283,7 +283,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="GALERI"
-                                android:textColor="#FFFFFF"
+                                android:textColor="#000000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>

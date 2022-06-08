@@ -84,7 +84,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="60dp"
-                                        android:src="@drawable/gurusmp"/>
+                                        android:src="@drawable/perpus1"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -102,7 +102,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginTop="60dp"
                                         android:layout_marginRight="12dp"
-                                        android:src="@drawable/headersakra"/>
+                                        android:src="@drawable/perpus2"/>
 
                                 </LinearLayout>
                                 <RelativeLayout

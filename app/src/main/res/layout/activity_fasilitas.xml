@@ -121,7 +121,7 @@
                             android:layout_marginRight="20dp"
                             android:layout_marginBottom="20dp"
                             android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                            android:text="Perpustakaan adalah fasilitas atau tempat menyediakan sarana bahan bacaan. Tujuan dari perpustakaan sendiri, khususnya perpustakaan perguruan tinggi adalah memberikan layanan informasi untuk kegiatan belajar, penelitian, dan pengabdian masyarakat dalam rangka melaksanakan Tri Dharma Perguruan Tinggi (Wiranto dkk,1997)."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -220,7 +220,7 @@
                             android:layout_marginBottom="20dp"
                             android:layout_marginRight="20dp"
                             android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                            android:text="Laboratorium komputer merupakan sarana untuk pembelajaran praktik siswa berkaitan dengan kompetensi di bidang teknologi informasi dan komunikasi.berfungsi sebagai tempat mengembangkan keterampilan dalam bidang teknologi informasi dan komunikasi."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -319,7 +319,7 @@
                             android:layout_marginRight="20dp"
                             android:layout_marginBottom="20dp"
                             android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                            android:text="Adanya mushola di sekolah sangat besar manfaatnya bagi semua orang di lingkungan sekolah terutama para siswa. Manfaat utamanya adalah sebagai sarana ibadah. Selain itu masjid bisa bermanfaat sebagai laboratorium untuk pembinaan dan pendidikan agama bagi siswa.."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -415,7 +415,7 @@
                             android:layout_marginRight="20dp"
                             android:layout_marginBottom="20dp"
                             android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                            android:text="Taman dapat digunakan untuk berbagai macam kepentingan manusia, mulai dari olahraga, bersantai, bermain, berkumpul dengan teman-teman, atau hanya sekadar menjadi sarana pelepas stres manusia."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -514,7 +514,7 @@
                             android:layout_marginBottom="20dp"
                             android:layout_marginRight="20dp"
                             android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                            android:text="Lapangan Bola Voli merupakan sarana yang vital untuk kegiatan kemasyarakatan khususnya dibidang Olah Raga yang dapat menunjang kegiatan yang positif dan menghasilkan bibit olahragawan baik tingkat Gampong, Kecamatan ataupun tingkat Kabupaten bahkan bisa mencapai olahragawan tingkat Nasional."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

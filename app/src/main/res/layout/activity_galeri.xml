@@ -205,7 +205,7 @@
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp"
-                    android:onClick="albumpramuka">
+                    android:onClick="albumprestasi">
 
                     <LinearLayout
                         android:layout_width="match_parent"

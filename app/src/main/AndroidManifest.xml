@@ -22,9 +22,6 @@
             android:name=".SepakbolaActivity"
             android:exported="false" />
         <activity
-            android:name=".SilatActivity"
-            android:exported="false" />
-        <activity
             android:name=".FasilitasActivity"
             android:exported="false" />
         <activity

@@ -54,8 +54,8 @@ public class EkskulActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void karate(View view) {
-        Intent intent = new Intent(EkskulActivity.this, SilatActivity.class);
+    public void voly(View view) {
+        Intent intent = new Intent(EkskulActivity.this, volyActivity.class);
         startActivity(intent);
     }
 

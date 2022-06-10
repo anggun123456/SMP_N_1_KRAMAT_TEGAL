@@ -30,4 +30,9 @@ public class GaleriActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void albumprestasi(View view) {
+        Intent intent = new Intent(GaleriActivity.this, AlbumprestasiActivity.class);
+        startActivity(intent);
+    }
+
 }
